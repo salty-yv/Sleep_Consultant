@@ -1,0 +1,32 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+sqlalchemy[asyncio]==2.0.36#
+asyncpg==0.30.0
+psycopg2-binary==2.9.10#
+alembic==1.14.0
+pydantic==2.10.4
+pydantic-settings==2.7.0#
+python-multipart==0.0.20
+pandas==2.2.3
+python-dotenv==1.0.1
+httpx==0.28.1
+
+# LangGraph + LangChain + Agent
+langgraph==0.2.68#
+langchain==0.3.14#
+langchain-core==0.3.29
+langchain-openai==0.3.1#
+langchain-community==0.3.14
+
+# ChromaDB（RAG 向量库）
+chromadb==0.6.2#
+langchain-chroma==0.2.2
+
+# OpenAI（可选，无 Key 时使用 Mock）
+openai==1.59.9
+
+# Redis（短期记忆，可选）
+redis==5.2.1
+
+# LangChain Text Splitters
+langchain-text-splitters==0.3.5
